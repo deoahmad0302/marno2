@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.evaluasi"
+    android:background="@drawable/bgicon">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/kepala"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:height="15dp"
+        android:gravity="center"
+        android:text="E V A L U A S I"
+        android:textColor="#000000"
+        android:textSize="50px"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/judulnilai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:text="judul"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/isinilai"
+        android:layout_marginTop="350dp"
+        android:textSize="55px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Nilai yang Diterima"
+        android:textStyle="bold"
+        android:textColor="#000000">
+
+    </TextView>
+
+
+
+</FrameLayout>
